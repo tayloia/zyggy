@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{990d26fa-036b-41bc-85d8-968e9f38934b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{117b44cc-863b-4479-b133-2945c67c5708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\zyggy-begin.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\zyggy-end.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\test\gtest.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\test\gtest.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\test\test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
